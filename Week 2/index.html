@@ -135,10 +135,15 @@
               <form>
                 <label for="title">Title:</label>
                 <input type="text">
-                <label for="lname">Semester:</label>
-                <input type="text">
-                <label for="lname">Grade:</label>
-                <input type="text">
+                <label for="semester">Semester:</label>
+                <select id="semester" name="semester">
+                  <option value="Semester 1 fall">Semester 1 fall</option>
+                  <option value="Semester 1 spring">Semester 1 spring</option>
+                  <option value="Semester 2 fall">Semester 2 fall</option>
+                  <option value="Semester 2 spring">Semester 2 spring</option>
+                </select>
+                <label for="grade">Grade:</label>
+                <input type="number" min="0" max="100">
               </form>
             </td>
           </tr>
